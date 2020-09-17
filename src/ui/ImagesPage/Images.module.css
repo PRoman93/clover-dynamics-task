@@ -1,0 +1,21 @@
+.imagesPageWrapper{
+    align-items: center;
+    text-align: center;
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.imageWrapper{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.singleImage img{
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+
+}
