@@ -32,7 +32,6 @@ const Selected = (props) => {
         } else {
             dispatch(getData(rover, camera, sol))
         }
-
     }
     let onRoverChange = (e) => {
         setError('')
