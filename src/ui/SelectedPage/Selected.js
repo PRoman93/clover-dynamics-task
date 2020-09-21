@@ -13,7 +13,6 @@ const Selected = (props) => {
     const [rover, setRover] = useState('')
     const [camera, setCamera] = useState('')
     const [sol, setSol] = useState('')
-
     let onDataClick = () => {
         if (rover === 'Curiosity' && camera === 'pancam' ||
             rover === 'Curiosity' && camera === 'minites' ||
