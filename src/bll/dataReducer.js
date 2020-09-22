@@ -29,6 +29,7 @@ export default dataReducer
 const getDataSuccess = (data) => ({type: GET_DATA, data})
 const setLoadingSuccess = (loading) => ({type: LOADING_SUCCESS, loading})
 
+
 export const getData = (rover, camera, sol, page) => async (dispatch) => {
     dispatch(setLoadingSuccess(true))
     let data = await api.getData(rover, camera, sol = 1000, page)
